@@ -1,8 +1,8 @@
 class ValorantAgent {
-  String name;
-  String description;
-  String image;
-  List<ValorantAgentSkill> skills;
+  final String name;
+  final String description;
+  final String image;
+  final List<ValorantAgentSkill> skills;
 
   ValorantAgent({
     required this.name,
@@ -13,8 +13,8 @@ class ValorantAgent {
 }
 
 class ValorantAgentSkill {
-  String skillName;
-  String skillImage;
+  final String skillName;
+  final String skillImage;
 
   ValorantAgentSkill({
     required this.skillName,
