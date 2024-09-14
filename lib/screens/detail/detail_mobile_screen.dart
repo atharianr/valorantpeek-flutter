@@ -25,7 +25,13 @@ class _DetailMobileScreenState extends State<DetailMobileScreen> {
             children: <Widget>[
               Stack(
                 children: <Widget>[
-                  Image.network(widget.valorantAgent.image),
+                  SizedBox(
+                    width: double.infinity,
+                    child: Image.network(
+                      widget.valorantAgent.image,
+                      fit: BoxFit.cover,
+                    ),
+                  ),
                   SafeArea(
                     child: Padding(
                       padding: const EdgeInsets.all(8.0),
