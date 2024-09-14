@@ -122,8 +122,7 @@ class ValorantAgentList extends StatelessWidget {
 class ValorantAgentGrid extends StatelessWidget {
   final int gridCount;
 
-  const ValorantAgentGrid({Key? key, required this.gridCount})
-      : super(key: key);
+  const ValorantAgentGrid({super.key, required this.gridCount});
 
   @override
   Widget build(BuildContext context) {

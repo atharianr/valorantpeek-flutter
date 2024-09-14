@@ -5,7 +5,7 @@ import 'package:valorantpeek_flutter/model/valorant_agent.dart';
 class DetailScreen extends StatelessWidget {
   final ValorantAgent valorantAgent;
 
-  const DetailScreen({Key? key, required this.valorantAgent}) : super(key: key);
+  const DetailScreen({super.key, required this.valorantAgent});
 
   @override
   Widget build(BuildContext context) {
@@ -24,8 +24,7 @@ class DetailScreen extends StatelessWidget {
 class DetailMobilePage extends StatelessWidget {
   final ValorantAgent valorantAgent;
 
-  const DetailMobilePage({Key? key, required this.valorantAgent})
-      : super(key: key);
+  const DetailMobilePage({super.key, required this.valorantAgent});
 
   @override
   Widget build(BuildContext context) {
@@ -284,8 +283,7 @@ class AgentSkillWidget extends StatelessWidget {
   final String skillImage;
 
   const AgentSkillWidget(
-      {Key? key, required this.skill, required this.skillImage})
-      : super(key: key);
+      {super.key, required this.skill, required this.skillImage});
 
   @override
   Widget build(BuildContext context) {
