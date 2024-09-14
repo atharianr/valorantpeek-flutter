@@ -59,7 +59,7 @@ class _DetailWebScreenState extends State<DetailWebScreen> {
                                 ClipRRect(
                                   borderRadius: BorderRadius.circular(10),
                                   child:
-                                      Image.asset(widget.valorantAgent.image),
+                                      Image.network(widget.valorantAgent.image),
                                 ),
                                 const SizedBox(height: 16),
                                 Scrollbar(
