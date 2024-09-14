@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_native_splash/flutter_native_splash.dart';
 
-import 'main_screen.dart';
+import 'ui/main_screen.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
