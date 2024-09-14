@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_native_splash/flutter_native_splash.dart';
-
-import 'ui/main_screen.dart';
+import 'package:valorantpeek_flutter/screens/main/main_screen.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
